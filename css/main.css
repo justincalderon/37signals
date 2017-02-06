@@ -377,4 +377,8 @@ footer p {
 }
 
 /* Media Queries */
-@media (max-width: )
+@media (max-width: 1200px) {
+  .meet {
+    display: none;
+  }
+}
