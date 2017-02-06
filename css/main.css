@@ -378,7 +378,12 @@ footer p {
 
 /* Media Queries */
 @media (max-width: 1200px) {
-  .meet {
-    display: none;
+  .meet,
+	.arrow-left,
+	.customers > img,
+	.crumple,
+	.arrow-right,
+	#customers > img {
+		display: none;
   }
 }
