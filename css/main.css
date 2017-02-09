@@ -386,4 +386,8 @@ footer p {
 	#customers > img {
 		display: none;
   }
+  header,
+  section {
+    width: 90%;
+  }
 }
