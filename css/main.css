@@ -377,7 +377,7 @@ footer p {
 }
 
 /* Media Queries */
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .meet,
 	.arrow-left,
 	.customers > img,
@@ -390,4 +390,33 @@ footer p {
   section {
     width: 90%;
   }
+  header h1 {
+    font-size: 42px;
+    line-height: 42px;
+    margin: 0 5%;
+  }
+  #customers h1,
+  #manifesto h1,
+  #rework h1,
+  #offerings h1 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  #products div:first-child {
+    margin-left: 10%;
+  }
+  #customers h1 {
+    padding: 0 0 20px 0;
+  }
+  #manifesto,
+  #manifesto .column, #manifesto .column-end {
+    height: 325px;
+  }
+  #manifesto .chapter {
+    display: none;
+  }
+  #offerings .column small, #offerings .column-end small {
+    font-size: 10px;
+  }
 }
+/* end max-width 1200px */
