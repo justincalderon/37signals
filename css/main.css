@@ -420,3 +420,28 @@ footer p {
   }
 }
 /* end max-width 1200px */
+
+/* start nax-width 1050px */
+@media screen and (max-width: 1050px) {
+  #products div:first-child {
+    margin-left: 7%;
+  }
+  #products p {
+		font-size: 12px;
+	}
+  #customers p {
+	    line-height: 26px;
+	}
+  .quotes h3 {
+		font-size: 18px;
+	}
+	#manifesto {
+		height: 400px;
+	}
+	#manifesto p {
+		height: 50px;
+	}
+}
+/* end max-width 1050px */
+
+/* start max-width 900px */
