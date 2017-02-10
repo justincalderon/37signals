@@ -489,3 +489,17 @@ footer p {
 /* end max-width 900px */
 
 /* start max-width 750px */
+@media screen and (max-width: 750px) {
+  #offerings {
+    display: none;
+  }
+  .quotes div {
+		font-size: 16px;
+	}
+}
+/* end max-width 750px */
+
+/* start max-width 675px */
+@media screen and (max-width: 675px) {
+  
+}
