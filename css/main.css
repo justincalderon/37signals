@@ -501,5 +501,28 @@ footer p {
 
 /* start max-width 675px */
 @media screen and (max-width: 675px) {
+  nav ul {
+    padding: 0;
+  }
+  #products {
+	    height: auto;
+	}
+  #products div {
+	 	display: block;
+	  margin: 10px auto !important;
+	  width: 50%;
+	 }
+}
+
+/* end max-width 675px */
+
+/* start max-width 600px */
+@media screen and (max-width: 600px) {
+  #customers h1,
+  #manifesto h1,
+  #rework h1,
+  #offerings h1 {
+    font-size: 24px;
+  }
   
 }
