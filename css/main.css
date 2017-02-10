@@ -445,3 +445,47 @@ footer p {
 /* end max-width 1050px */
 
 /* start max-width 900px */
+@media screen and (max-width: 900px) {
+  header {
+    margin-bottom: 0;
+  }
+  header h1 {
+		font-size: 36px;
+		line-height: 36px;
+	}
+  #products div {
+	    box-sizing: border-box;
+	    display: inline-block;
+	    float: none;
+	    margin: 2% 1%;
+	    padding: 15px 20px;
+	    width: 27%;
+	}
+  #products div:first-child {
+    	margin-left: 0;
+	}
+  .column, .column-end {
+	    float: none;
+	    width: 75%;
+	    margin: 0 auto;
+	}
+  .column-end div:first-child {
+		clear: left;
+	}
+  #customers p{
+		font-size: 18px;
+	}
+
+	#manifesto,
+	#manifesto + hr,
+	#rework + hr {
+		display: none;
+	}
+
+	.rework, .offerings {
+		display: none;
+	}
+}
+/* end max-width 900px */
+
+/* start max-width 750px */
