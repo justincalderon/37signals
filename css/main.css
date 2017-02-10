@@ -524,5 +524,26 @@ footer p {
   #offerings h1 {
     font-size: 24px;
   }
-  
+  header h1 {
+		font-size: 28px;
+		line-height: 28px;
+	}
+	header h2 {
+	    font-size: 16px;
+	    line-height: 25px;
+	}
+	#rework {
+		height: auto;
+	}
+	.book {
+		float: none;
+		text-align: center;
+	}
+	.quotes div {
+		margin-top: 0;
+	}
+	.quotes p {
+		margin-bottom: 5px;
+	}
 }
+/* end max-width 600px */
